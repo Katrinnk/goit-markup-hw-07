@@ -1,0 +1,28 @@
+/* --------MOBILE------ */
+@media screen and (min-width: 428px){
+    .info-link-tel{
+        font-size: 36px;
+    }
+    .mob-menu-bottom .soc-list{
+        gap: 56px;
+    }
+    .hero{
+        background-image: var(--hero-bg-gradient), url(../images/bg-tablet.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+        background-image:var(--hero-bg-gradient), url('/images/bg-tablet-2x.jpg');
+    }
+    }
+    .customers-list{
+        
+    }
+    .customers-item{
+        margin-right: 16px;
+    }
+    .customers-icon-link{
+        width: 190px;
+    }
+}

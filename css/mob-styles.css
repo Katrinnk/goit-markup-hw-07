@@ -318,7 +318,6 @@ body {
 }
 .team-list{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     gap: 72px;
     justify-content: center;

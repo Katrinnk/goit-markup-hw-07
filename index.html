@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/mob-styles.css">
+    <link rel="stylesheet" href="./css/media-styles.css">
 </head>
 <body>
  <!-- HEADER -->
@@ -45,16 +46,14 @@
                 </ul>
             </address>
     <!-- MOB-MENU -->        
-            <button class="btn-mob-menu-open btn-mob-menu menu-toggle js-open-menu" type="button" 
-            aria-expanded="false"
-            aria-controls="mobile-menu">
+            <button class="btn-mob-menu-open btn" type="button" data-menu-open>
                 <svg class="btn-mob-menu-open-icon" width="32" height="32">
                     <use href="./images/icons.svg#icon-mob-menu"></use>
                 </svg>
             </button>
-            <div class="mob-menu  js-menu-container" id="mobile-menu">
+            <div class="mob-menu is-hidden" data-menu>
                 <div class="mob-menu-top">
-                <button class="btn-mob-menu-close btn menu-toggle js-close-menu" type="button">
+                <button class="btn-mob-menu-close btn" type="button" data-menu-close>
                     <svg class="mob-menu-close-icon" width="8" height="8">
                         <use href="./images/icons.svg#icon-close"></use>
                     </svg>
@@ -521,12 +520,6 @@
     </div>
 </div>
 <script src="./js/modal.js"></script>
-<script
-defer
-src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-crossorigin="anonymous"
-></script>
-<script defer src="./js/mob-menu.js"></script>
+<script src="./js/mob-menu.js"></script>
 </body>
 </html>
