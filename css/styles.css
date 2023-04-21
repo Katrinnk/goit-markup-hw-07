@@ -125,8 +125,7 @@ img{
 /* ======= NAV ======= */
  .header-container{
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .header-menu{
@@ -587,7 +586,7 @@ margin-bottom: 16px;
 }
 .modal-btn{
     margin-top: 24px;
-} */
+} 
 /* ========PORTFOLIO====== */
 /* .filter{
     padding-top: 96px;
