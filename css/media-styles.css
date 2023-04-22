@@ -24,5 +24,6 @@
     }
     .customers-icon-link{
         width: 190px;
+        max-width: calc(100 / 2 - 42px);
     }
 }
