@@ -379,7 +379,7 @@ body {
 .customers-item:nth-child(even){
     margin-right: 0;
 }
-.customers-item:last-child(-n + 2){
+.customers-item:nth-child(n + 5){
     margin-bottom: 0;
 }
 .customers-icon-link{
@@ -462,14 +462,14 @@ body {
 }
 .footer-form{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .input-subscribe{
     width: 100%;
     height: 40px;
-    border: 1px solid #FFFFFF;
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: transparent;
     outline: transparent;
@@ -484,10 +484,12 @@ body {
     font-family: var(--main-font);
     font-size: 12px;
     line-height: 2;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
 }
 .subscribe-btn{
-    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;

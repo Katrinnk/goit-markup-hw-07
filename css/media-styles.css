@@ -20,10 +20,9 @@
         margin-right: 16px;
     }
     .customers-icon-link{
-        min-width: 190px;
-        width: calc(100% / 2 - 3 * 16px);
+        width: 190px;  
     }
-    
+
 }
 /* --------TABLET------ */
 @media screen  and (min-width: 768px){
@@ -116,12 +115,92 @@
         line-height: 1.07;
     }
     /* --------PRODUCTIVITY------ */
-    .container .productivity-title{
+    .productivity > .container{
         padding-right: 16px;
         padding-left: 16px;
     }
+    .productivity-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+    .productivity-item{
+        max-width: 356px;
+        margin-bottom: 48px;
+    }
+    .productivity-item:nth-child(n + 3){
+        margin-bottom: 0;
+    }
+
+    .productivity-subtitle{
+        text-align: left;
+    }
+    /* --------TEAN------ */
+    .team-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .team-item:nth-child( -n + 2 ){
+        margin-bottom: 40px;
+    }
+    /* --------CUSTOMERS------ */
+    .customers-list{
+        justify-content: left;
+    }
+    .customers-item{
+        margin-right: 24px;
+    }
+    .customers-item:nth-child(even){
+        margin-right: 24px;
+    }
+    .customers-item:nth-child(3n){
+        margin-right: 0;
+    }
+    .customers-item:nth-child(n + 4){
+        margin-bottom: 0;
+    }
+    .customers-icon-link{
+        width: 168px;
+    }
+    /* ======= FOOTER ======= */
+    .footer-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        align-items: start;
+        justify-content: start;
+    }
+    .footer-logo{
+        position: static;
+    }
+    .footer-logo + .footer-text{
+        width: 264px;
+        margin-bottom: 48px;
+    }
+    .footer-text{
+        text-align: left;
+    }
+    .footer-form{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:start;
+        align-items: start;
+        gap: 24px;
+    }
+    .input-subscribe{
+        width: 264px;
+    }
 }
-/* --------DESCTOP------ */
+/* --------DESKTOP------ */
 @media screen and (min-width: 1158px) {
-    
+   .container{
+    padding-right: 156px;
+    padding-left: 156px;
+   }
+   .header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+   }
 }
