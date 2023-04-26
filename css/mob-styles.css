@@ -237,7 +237,7 @@ body {
     background-color: var(--hover-color);
 }
 /* ======= NAV ======= */
-.header-menu-list, .header-contact{
+.header-menu-list, .header-contact-list{
     display: none;
 }
 
