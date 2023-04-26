@@ -1,5 +1,8 @@
 /* --------MOBILE------ */
 @media screen and (min-width: 428px){
+    .container{
+        width: 396px;
+    }
     .info-link-tel{
         font-size: 36px;
     }
@@ -13,7 +16,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-        background-image:var(--hero-bg-gradient), url('/images/bg-tablet-2x.jpg');
+        background-image:var(--hero-bg-gradient), url(../images/bg-tablet-2x.jpg);
     }
     }
     .customers-item{
@@ -27,13 +30,11 @@
 /* --------TABLET------ */
 @media screen  and (min-width: 768px){
     .container{
-        padding-right: 108px;
-        padding-left: 108px;
+        width: 552px;
     }
     /* --------HEADER------ */
     .header-container{
-        padding-right: 16px;
-        padding-left: 16px;
+        width: 736px;
     }
     .header{
         padding-top: 16px;
@@ -105,7 +106,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-        background-image:var(--hero-bg-gradient), url('/images/bg-desktop-2x.jpg');
+        background-image:var(--hero-bg-gradient), url(../images/bg-desktop-2x.jpg);
     }
 }
     .hero-title{
@@ -116,8 +117,7 @@
     }
     /* --------PRODUCTIVITY------ */
     .productivity > .container{
-        padding-right: 16px;
-        padding-left: 16px;
+        width: 736px;
     }
     .productivity-list{
         display: flex;
@@ -199,8 +199,7 @@
 /* --------DESKTOP------ */
 @media screen and (min-width: 1158px) {
    .container{
-    padding-right: 156px;
-    padding-left: 156px;
+    width: 1128px;
    }
    .section{
     padding-top: 120px;
@@ -235,6 +234,9 @@
         margin-bottom: 48px;
     }
     /* --------PRODUCTIVITY------ */
+    .productivity > .container{
+        width: 1128px;
+    }
     .productivity-item{
         width: 264px;
     }

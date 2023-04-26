@@ -56,8 +56,7 @@ img{
     overflow: hidden;
 }
 .container{
-    padding-right: 16px;
-    padding-left: 16px;
+    width: 288px;
     margin: 0 auto;
 }
 
@@ -255,7 +254,7 @@ body {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image:var(--hero-bg-gradient), url('/images/bg-mob-2x.jpg');
+    background-image:var(--hero-bg-gradient), url(../images/bg-mob-2x.jpg);
   }
 }
 
