@@ -294,6 +294,7 @@
     }
     .footer-container{
         flex-wrap: nowrap;
+        gap: 0;
     }
     .footer-logo-text{
         margin-right: 120px;
