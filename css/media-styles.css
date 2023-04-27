@@ -150,6 +150,7 @@
     }
     .customers-item{
         margin-right: 24px;
+        margin-bottom: 0;
     }
     .customers-item:nth-child(even){
         margin-right: 24px;
@@ -190,6 +191,7 @@
     }
     .input-subscribe{
         width: 264px;
+        margin-bottom: 0;
     }
     .modal{
         width: 408px;
@@ -239,6 +241,7 @@
     }
     .productivity-item{
         width: 264px;
+        margin-bottom: 0;
     }
     .productivity-icon-link{
         display: flex;
@@ -301,5 +304,9 @@
     }
     .footer-soc{
         margin-right: 80px;
+        margin-bottom: 0;
+    }
+    .footer-logo + .footer-text{
+        margin-bottom: 0;
     }
 }

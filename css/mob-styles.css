@@ -306,6 +306,9 @@ body {
 .productivity-item{
     margin-bottom: 72px;
 }
+.productivity-item:last-child{
+    margin-bottom: 0;
+}
 /* ======= ACTIVITY ======= */
 .activity{
     display: none;
